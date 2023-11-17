@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(346deg 17% 70%);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+#part1{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+#part2{
+    width: 70%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1604514775346-3f40ef356d68?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color:hsla(0, 2%, 12%, 0.445);
+}
+#part3{
+    width: 10%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+#text-div{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    /* background-color: red; */
+    left: 8%;
+    top: 40%;
+    /* transform: translate(,-50%); */
+}
+#text-div>h1{
+    font-size: 65px;
+    letter-spacing: 8px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+#small-img{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1604514775346-3f40ef356d68?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+#vertical-text{
+    position: absolute;
+    width: 100%;
+    /* background-color: green; */
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    overflow: hidden;
+    right: -94%;
+    top: -2%;
+}
+#vertical-text>h1{
+    font-size: 50px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900;
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    /* height: 70px; */
+    /* z-index: 1; */
+    gap:11%;
+    left: 8%;
+    top: 5%;
+}
+#nav > img{
+    height: 70px;
+}
+#nav >h5{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absoluteto;
+    padding-top: 20px;
+    letter-spacing: 2px;
+
+}
